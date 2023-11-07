@@ -22,10 +22,10 @@ To run this microservice, follow these steps:
 
  - git clone <https://github.com/alireza-frj4/hexArchGoGRPC.git>
 
-2. install dependency 
+2. install dependency:
 
  - go mod tidy
 
-3. for run on docker-compose
+3. for run on docker-compose:
 
  - docker compose up --build
