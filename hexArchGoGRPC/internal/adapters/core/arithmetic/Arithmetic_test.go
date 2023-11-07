@@ -20,7 +20,7 @@ func TestAddition(t *testing.T) {
 func TestSubtraction(t *testing.T) {
 	arith := NewAdapter()
 
-	answer, err := arith.Addition(2, 1)
+	answer, err := arith.Subtraction(2, 1)
 	if err != nil {
 		t.Fatalf("expected: %v, got: %v", nil, err)
 	}
@@ -31,7 +31,7 @@ func TestSubtraction(t *testing.T) {
 func TestMultiplication(t *testing.T) {
 	arith := NewAdapter()
 
-	answer, err := arith.Addition(2, 1)
+	answer, err := arith.Multiplication(2, 1)
 	if err != nil {
 		t.Fatalf("expected: %v, got: %v", nil, err)
 	}
