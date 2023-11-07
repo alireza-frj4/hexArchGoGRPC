@@ -24,7 +24,7 @@ To run this microservice, follow these steps:
 
 2. install dependency 
 
- - go mod tidy
+ -go mod tidy
 
 3. for run on docker-compose
 
